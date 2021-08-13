@@ -1,41 +1,212 @@
-*{
+* {
+
+    margin: 0;
+}
+
+.top {
+    background-color: black;
+    height: 70px;
     padding: 0;
     margin: 0;
 }
-body{
-    background-color: rgb(76, 162, 216);
-}
-.login{
-    margin: 150px 0px 0px 600px;
-    padding:  35px 10px 10px 10px;
-    background-color: white;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-}
-.login input{
-    width: 250px;
-    height: 40px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid grey;
-    padding-left: 10px;
-    opacity: 0.5;
-}
-.login button{
-    width: 265px;
-    height: 30px;
-    margin-top: 15px;
-    border-radius: 5px;
-    background-color: rgb(52, 109, 165);
-    border: none;
-    color: white;
-}
-.login img{
-    margin-bottom: 20px;
-    width: 30%;
+
+.container-top {
+    width: 1515px;
+    margin: 0 auto;
 }
 
-.login input:hover{
-    border: solid rgb(49, 123, 219);
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
+
+#carticon {
+    width: 6%;
+}
+
+.cart {
+    color: white;
+    padding-top: 6px;
+    float: right;
+    text-align: center;
+
+}
+
+.cart a:link,
+.cart a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    border-bottom: solid 1px rgb(206, 210, 216);
+}
+
+.logo a:link,
+.logo a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#menuleft {
+    width: 70%;
+    height: 70px;
+    float: left;
+}
+
+#menuright {
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+
+#menuleft ul li {
+    float: left;
+    padding-left: 40px;
+    list-style: none;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+#menuleft ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menuleft ul li a:hover {
+    color: grey;
+}
+
+#menuright {
+    padding-top: 25px;
+}
+
+#textsearch {
+    padding: 7px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.contentbestsale {
+    float: left;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.bestsale {
+    height: 400px;
+}
+
+.product-content {
+    text-align: center;
+    border: solid 1px rgb(206, 212, 209);
+    float: left;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.product-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-product :hover {
+    color: rgb(221, 27, 43);
+}
+
+.text-product :hover {
+    color: rgb(221, 180, 44);
+}
+
+.infomation {
+    float: left;
+    width: 25%;
+    height: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.infomation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.infomation ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+span.icon-social {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+}
+
+#facebook {
+    background: url(image/s-icons.png);
+    background-position: 0 0;
+}
+
+#twitter {
+    background: url(image/s-icons.png);
+    background-position: 68px 0;
+}
+
+#google {
+    background: url(image/s-icons.png);
+    background-position: 136px 0;
+}
+
+.text-infomation {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    margin-bottom: 12px;
+
+}
+
+.infomation ul li a :hover {
+    color: rgb(104, 104, 218);
+}
+
+.partition {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.footer {
+    width: 50%;
+    float: left;
+
+}
+
+#footer-left {
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+.content-footer-left {
+    padding: 10px;
+    width: 40%;
+    font-size: 11px;
+    border: solid 1px;
+    margin-right: 5px;
+}
+
+.btn-submit {
+    padding: 10px 25px;
+    font-size: 11px;
+    border: solid 1px;
+    background-color: white;
+}
+
