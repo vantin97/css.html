@@ -1,18 +1,36 @@
 * {
-
     margin: 0;
+    padding: 0;
 }
 
-.top {
-    background-color: black;
+/* ở đây mi chưa có withd với height bị cưng
+height ri cũng được.
+ */
+.wrapper {
+    max-width: 1520px;
+    /* đừng làm cứng như ri*/
+    width: 100%;
+    margin: 0 auto;
     height: 70px;
+    background-color: black;
+}
+
+
+/* trong trường hợp ni là sai rồi thằng ni đang chưa 1 item. mà cái div lại là phần cha của item. nó đại diện luôn cho kích thước của cái icon card nớ. nếu muốn tạo thêm 
+1 cái như khi nãy, thì phải tạo thêm 1 div. nhưng trong trường hợp 1 row chỉ có đơn giản như ri., thì k cần, chỉ cần 2 div như này, rồi css */
+
+/* ở cái div top ni. chỉ có 1 cái duy nhất là cái icon, hắn k phức tạp. nên chỉ cần set 1 div cha to. 100%*/
+/* Sau đó ở div con. là cái icon ấy. thì css nó đúng kích thước là được rồi. hắn tự động responsive */
+/* Hiện tại hắn đã tự động respon về màn hình table rồi, còn phía mobile chỉ cần chỉnh lại tí nữa. là nhanh hơn */
+/*chừ hắn đang chạy bậy bạ, là do mi k set div tổng thể, cái ni là bữa lâu tao có nói tới vụ ni rồi. nên nhớ lại chưa ?  cái vụ mà wapper á. à ok*/
+/* khi chuyển mà hình  hắn đã chạy bậy bạ do mihf k cố định, K có thẻ cha. */
+.container-top {
     padding: 0;
     margin: 0;
-}
-
-.container-top {
-    width: 1515px;
-    margin: 0 auto;
+    height: 100%;
+    /* 2 cái ni thừa hưởng lại thuộc tính chiều cao với rộng của thằng cha */
+    width: 30%;
+    margin-left: auto;
 }
 
 .container {
@@ -20,14 +38,15 @@
     margin: 0 auto;
 }
 
-#carticon {
+/* #carticon {
     width: 6%;
-}
+} */
 
 .cart {
     color: white;
-    padding-top: 6px;
-    float: right;
+    padding-top: 10px;
+    /* float: right;  cái thằng ni á là dùng cho nhiều vị trí. nhưng nếu có thêm 1 vài cái div nữa. là hắn sẽ bị đẩy đi bậy bạ */
+
     text-align: center;
 
 }
@@ -39,8 +58,8 @@
 }
 
 .logo {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 45px;
+    padding-bottom: 30px;
     text-align: center;
     border-bottom: solid 1px rgb(206, 210, 216);
 }
@@ -94,12 +113,12 @@
 
 .contentbestsale {
     float: left;
-    padding-right: 50px;
-    padding-top: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .bestsale {
-    height: 400px;
+    height: 350px;
 }
 
 .product-content {
@@ -112,6 +131,8 @@
     margin-bottom: 30px;
     letter-spacing: 1px;
     line-height: 27px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .product-content a {
@@ -210,3 +231,56 @@ span.icon-social {
     background-color: white;
 }
 
+
+
+/* laptop: width < 1024px */
+@media only screen and (max-width: 1440px) {
+    
+
+    .contentbestsale {
+        margin-top: 50px;
+        width: 334px;
+    }
+    .product-content{
+        width: 100px;
+    }
+    #menuright {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px){
+    .contentbestsale {
+        margin: 30px 20px 0 40px;
+    }
+    .product-content{
+        width: 100px;
+    }
+    #img-best-sale3{
+        display: none;
+    }
+    #product-8, #product-7{
+        display: none;
+    }
+}
+
+/* tablet: width < 768px */
+@media only screen and (max-width: 768px) {
+    #menuleft {
+        width: 100%;
+    }
+
+    #menuright {
+        display: none;
+    }
+
+    .bestsale {
+        margin: 0 0 0 85px;
+    }
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 425px) {}
+/* .bestsale {
+    margin: 0px -50px 0 -168px;
+} */

@@ -10,333 +10,340 @@
 </head>
 
 <body>
-    <!-- đầu top -->
-    <div class="top">
-        <div class="container-top">
-            <div class="cart">
-                <a href="#"><img id="carticon"
-                        src="https://i.pinimg.com/originals/e2/06/3e/e2063ef31174bff0e81d1bb641b5f3f3.png"
-                        alt="cart"></a>
-                <p><a href="#">Cart empty</a></p>
+    <div class="wrapper">
+        <!-- đầu top
+        trước tiên là phần ni, mi phải xác định được cái kích thước của hắn. chiều rộng với chiều cao
+        witdh với height -->
+        <div class="top">
+            <!-- ở đây thằng top là thằng cha (div parent).  Nên khi xét các thuộc tính về kích thước hình dạng., là phải xét cho thằng ni-->
+            <div class="container-top">
+                <!-- Không phải thằng ni-->
+                <div class="cart">
+                    <a href="#"><img src="image/cart-1.png" alt="cart"></a>
+                    <p><a href="#">Cart empty</a></p>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- cuối top -->
+        <!-- cuối top -->
 
-    <!-- đầu logo -->
-    <div class="logo">
-        <a href="#">
-            <h1>LUXURY WATCHES</h1>
-        </a>
-    </div>
-    <!-- cuối logo -->
+        <!-- đầu logo -->
+        <div class="logo">
+            <a href="#">
+                <h1>LUXURY WATCHES</h1>
+            </a>
+        </div>
+        <!-- cuối logo -->
 
-    <!-- đầu menu -->
-    <div class="menu">
-        <div class="container">
-            <div id="menuleft">
-                <ul>
-                    <li><a href="#">Home</a> </li>
-                    <li><a href="#">Men</a> </li>
-                    <li><a href="#">Women</a> </li>
-                    <li><a href="#">Kids</a> </li>
-                    <li><a href="#">Blog</a> </li>
-                    <li><a href="#">Contact</a> </li>
-                </ul>
+        <!-- đầu menu -->
+        <div class="menu">
+            <div class="container">
+                <div id="menuleft">
+                    <ul>
+                        <li><a href="#">Home</a> </li>
+                        <li><a href="#">Men</a> </li>
+                        <li><a href="#">Women</a> </li>
+                        <li><a href="#">Kids</a> </li>
+                        <li><a href="#">Blog</a> </li>
+                        <li><a href="#">Contact</a> </li>
+                    </ul>
+                </div>
+                <div id="menuright">
+                    <form action="#">
+                        <input id="textsearch" type="text" placeholder="Search">
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
             </div>
-            <div id="menuright">
+        </div>
+        <!-- cuối menu -->
+
+        <!-- đầu banner -->
+        <div class="banner">
+            <img src="image/bnr-3.jpg" alt="banner">
+        </div>
+        <!-- cuối banner -->
+
+        <!-- đầu logo best sale -->
+        <div class="bestsale">
+            <div class="container">
+                <div class="contentbestsale">
+                    <img src="image/abt-1.jpg" alt="banner">
+                </div>
+                <div class="contentbestsale">
+                    <img src="image/abt-2.jpg" alt="banner">
+                </div>
+                <div class="contentbestsale">
+                    <img id ="img-best-sale3"src="image/abt-3.jpg" alt="banner">
+                </div>
+            </div>
+        </div>
+        <!-- cuối logo best sale -->
+
+        <!-- đầu san pham -->
+        <div class="product">
+            <div class="container">
+                <!-- product -->
+                <div class="product-content">
+                    <div class="images-product">
+                        <img src="image/p-1.png" alt="product 1">
+                    </div>
+                    <div class="info-product">
+                        <a href="#"><span class="name-product">Watch 1</span></a><br>
+                        <a href="#"><span class="preview-product">Preview</span></a>
+                    </div>
+                    <div class="text-product">
+                        <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
+                        <a href="#"><span class="price">$ 333 </span><br></a>
+                        <a href="#"><span class="discout">-50%</span></a>
+                    </div>
+                </div>
+
+                <div class="product-content">
+                    <div class="images-product">
+                        <img src="image/p-2.png" alt="product 1">
+                    </div>
+                    <div class="info-product">
+                        <a href="#"><span class="name-product">Watch 1</span></a><br>
+                        <a href="#"><span class="preview-product">Preview</span></a>
+                    </div>
+                    <div class="text-product">
+                        <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
+                        <a href="#"><span class="price">$ 333 </span><br></a>
+                        <a href="#"><span class="discout">-50%</span></a>
+                    </div>
+                </div>
+
+                <div class="product-content">
+                    <div class="images-product">
+                        <img src="image/p-3.png" alt="product 1">
+                    </div>
+                    <div class="info-product">
+                        <a href="#"><span class="name-product">Watch 1</span></a><br>
+                        <a href="#"><span class="preview-product">Preview</span></a>
+                    </div>
+                    <div class="text-product">
+                        <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
+                        <a href="#"><span class="price">$ 333 </span><br></a>
+                        <a href="#"><span class="discout">-50%</span></a>
+                    </div>
+                </div>
+
+                <div class="product-content">
+                    <div class="images-product">
+                        <img src="image/p-4.png" alt="product 1">
+                    </div>
+                    <div class="info-product">
+                        <a href="#"><span class="name-product">Watch 1</span></a><br>
+                        <a href="#"><span class="preview-product">Preview</span></a>
+                    </div>
+                    <div class="text-product">
+                        <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
+                        <a href="#"><span class="price">$ 333 </span><br></a>
+                        <a href="#"><span class="discout">-50%</span></a>
+                    </div>
+                </div>
+
+                <div class="product-content">
+                    <div class="images-product">
+                        <img src="image/p-5.png" alt="product 1">
+                    </div>
+                    <div class="info-product">
+                        <a href="#"><span class="name-product">Watch 1</span></a><br>
+                        <a href="#"><span class="preview-product">Preview</span></a>
+                    </div>
+                    <div class="text-product">
+                        <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
+                        <a href="#"><span class="price">$ 333 </span><br></a>
+                        <a href="#"><span class="discout">-50%</span></a>
+                    </div>
+                </div>
+
+                <div class="product-content">
+                    <div class="images-product">
+                        <img src="image/p-6.png" alt="product 1">
+                    </div>
+                    <div class="info-product">
+                        <a href="#"><span class="name-product">Watch 1</span></a><br>
+                        <a href="#"><span class="preview-product">Preview</span></a>
+                    </div>
+                    <div class="text-product">
+                        <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
+                        <a href="#"><span class="price">$ 333 </span><br></a>
+                        <a href="#"><span class="discout">-50%</span></a>
+                    </div>
+                </div>
+
+                <div class="product-content" id="product-7">
+                    <div class="images-product">
+                        <img src="image/p-7.png" alt="product 1">
+                    </div>
+                    <div class="info-product">
+                        <a href="#"><span class="name-product">Watch 1</span></a><br>
+                        <a href="#"><span class="preview-product">Preview</span></a>
+                    </div>
+                    <div class="text-product">
+                        <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
+                        <a href="#"><span class="price">$ 333 </span><br></a>
+                        <a href="#"><span class="discout">-50%</span></a>
+                    </div>
+                </div>
+
+                <div class="product-content" id="product-7">
+                    <div class="images-product">
+                        <img src="image/p-2.png" alt="product 1">
+                    </div>
+                    <div class="info-product">
+                        <a href="#"><span class="name-product">Watch 1</span></a><br>
+                        <a href="#"><span class="preview-product">Preview</span></a>
+                    </div>
+                    <div class="text-product">
+                        <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
+                        <a href="#"><span class="price">$ 333 </span><br></a>
+                        <a href="#"><span class="discout">-50%</span></a>
+                    </div>
+                </div>
+
+                <!-- product -->
+            </div>
+        </div>
+        <!-- cuối san pham -->
+
+        <!-- đầu info -->
+        <div class="info">
+            <div class="container">
+                <div class="infomation">
+                    <h3>Follow Us</h3><br>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="icon-social" id="facebook"></span>
+                                <span class="text-infomation">FaceBook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-social" id="twitter"></span>
+                                <span class="text-infomation">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-social" id="google"></span>
+                                <span class="text-infomation">Google+</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="infomation">
+                    <h3>Infomation</h3><br>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation">Specials</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation">New Products</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation">Our Stores</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation">Contact Us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation"> Top Sellers</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="infomation">
+                    <h3>My Account</h3><br>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation">My Account</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation">My Credit slips</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation">My Merchandise returns</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation">My Personal info</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation">My Addresses</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="infomation">
+                    <h3>Store Information</h3><br>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-infomation"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="partition">
+            </div>
+        </div>
+        
+        <!-- cuối info -->
+
+        <!-- đầu footer -->
+        <div class="container">
+            <div class="footer" id="footer-left">
                 <form action="#">
-                    <input id="textsearch" type="text" placeholder="Search">
-                    <input type="submit" value="Search">
+                    <input class="content-footer-left" type="text" placeholder="Enter your Email">
+                    <input class="btn-submit" type="submit" value="Subcribe">
                 </form>
             </div>
+            <div class="footer" id="footer-right">
+                <span>© 2015 Luxury Watches. All Rights Reserved | Design by W3layouts</span>
+            </div>
         </div>
+        <!-- cuối footer -->
     </div>
-    <!-- cuối menu -->
-
-    <!-- đầu banner -->
-    <div class="banner">
-        <img src="image/bnr-3.jpg" alt="banner">
-    </div>
-    <!-- cuối banner -->
-
-    <!-- đầu logo best sale -->
-    <div class="bestsale">
-        <div class="container">
-            <div class="contentbestsale">
-                <img src="image/abt-1.jpg" alt="banner">
-            </div>
-            <div class="contentbestsale">
-                <img src="image/abt-2.jpg" alt="banner">
-            </div>
-            <div class="contentbestsale">
-                <img src="image/abt-3.jpg" alt="banner">
-            </div>
-        </div>
-    </div>
-    <!-- cuối logo best sale -->
-
-    <!-- đầu san pham -->
-    <div class="product">
-        <div class="container">
-            <!-- product -->
-            <div class="product-content">
-                <div class="images-product">
-                    <img src="image/p-1.png" alt="product 1">
-                </div>
-                <div class="info-product">
-                    <a href="#"><span class="name-product">Watch 1</span></a><br>
-                    <a href="#"><span class="preview-product">Preview</span></a>
-                </div>
-                <div class="text-product">
-                    <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
-                    <a href="#"><span class="price">$ 333 </span><br></a>
-                    <a href="#"><span class="discout">-50%</span></a>
-                </div>
-            </div>
-
-            <div class="product-content">
-                <div class="images-product">
-                    <img src="image/p-2.png" alt="product 1">
-                </div>
-                <div class="info-product">
-                    <a href="#"><span class="name-product">Watch 1</span></a><br>
-                    <a href="#"><span class="preview-product">Preview</span></a>
-                </div>
-                <div class="text-product">
-                    <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
-                    <a href="#"><span class="price">$ 333 </span><br></a>
-                    <a href="#"><span class="discout">-50%</span></a>
-                </div>
-            </div>
-
-            <div class="product-content">
-                <div class="images-product">
-                    <img src="image/p-3.png" alt="product 1">
-                </div>
-                <div class="info-product">
-                    <a href="#"><span class="name-product">Watch 1</span></a><br>
-                    <a href="#"><span class="preview-product">Preview</span></a>
-                </div>
-                <div class="text-product">
-                    <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
-                    <a href="#"><span class="price">$ 333 </span><br></a>
-                    <a href="#"><span class="discout">-50%</span></a>
-                </div>
-            </div>
-
-            <div class="product-content">
-                <div class="images-product">
-                    <img src="image/p-4.png" alt="product 1">
-                </div>
-                <div class="info-product">
-                    <a href="#"><span class="name-product">Watch 1</span></a><br>
-                    <a href="#"><span class="preview-product">Preview</span></a>
-                </div>
-                <div class="text-product">
-                    <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
-                    <a href="#"><span class="price">$ 333 </span><br></a>
-                    <a href="#"><span class="discout">-50%</span></a>
-                </div>
-            </div>
-
-            <div class="product-content">
-                <div class="images-product">
-                    <img src="image/p-5.png" alt="product 1">
-                </div>
-                <div class="info-product">
-                    <a href="#"><span class="name-product">Watch 1</span></a><br>
-                    <a href="#"><span class="preview-product">Preview</span></a>
-                </div>
-                <div class="text-product">
-                    <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
-                    <a href="#"><span class="price">$ 333 </span><br></a>
-                    <a href="#"><span class="discout">-50%</span></a>
-                </div>
-            </div>
-
-            <div class="product-content">
-                <div class="images-product">
-                    <img src="image/p-6.png" alt="product 1">
-                </div>
-                <div class="info-product">
-                    <a href="#"><span class="name-product">Watch 1</span></a><br>
-                    <a href="#"><span class="preview-product">Preview</span></a>
-                </div>
-                <div class="text-product">
-                    <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
-                    <a href="#"><span class="price">$ 333 </span><br></a>
-                    <a href="#"><span class="discout">-50%</span></a>
-                </div>
-            </div>
-
-            <div class="product-content">
-                <div class="images-product">
-                    <img src="image/p-7.png" alt="product 1">
-                </div>
-                <div class="info-product">
-                    <a href="#"><span class="name-product">Watch 1</span></a><br>
-                    <a href="#"><span class="preview-product">Preview</span></a>
-                </div>
-                <div class="text-product">
-                    <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
-                    <a href="#"><span class="price">$ 333 </span><br></a>
-                    <a href="#"><span class="discout">-50%</span></a>
-                </div>
-            </div>
-
-            <div class="product-content">
-                <div class="images-product">
-                    <img src="image/p-2.png" alt="product 1">
-                </div>
-                <div class="info-product">
-                    <a href="#"><span class="name-product">Watch 1</span></a><br>
-                    <a href="#"><span class="preview-product">Preview</span></a>
-                </div>
-                <div class="text-product">
-                    <a href="#"><img src="image/cart-2.png" alt="cart product"></a>
-                    <a href="#"><span class="price">$ 333 </span><br></a>
-                    <a href="#"><span class="discout">-50%</span></a>
-                </div>
-            </div>
-
-            <!-- product -->
-        </div>
-    </div>
-    <!-- cuối san pham -->
-
-    <!-- đầu info -->
-    <div class="container">
-        <div class="infomation">
-            <h3>Follow Us</h3><br>
-            <ul>
-                <li>
-                    <a href="#">
-                        <span class="icon-social" id="facebook"></span>
-                        <span class="text-infomation">FaceBook</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon-social" id="twitter"></span>
-                        <span class="text-infomation">Twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon-social" id="google"></span>
-                        <span class="text-infomation">Google+</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="infomation">
-            <h3>Infomation</h3><br>
-            <ul>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation">Specials</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation">New Products</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation">Our Stores</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation">Contact Us</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation"> Top Sellers</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="infomation">
-            <h3>My Account</h3><br>
-            <ul>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation">My Account</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation">My Credit slips</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation">My Merchandise returns</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation">My Personal info</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation">My Addresses</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="infomation">
-            <h3>Store Information</h3><br>
-            <ul>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="text-infomation"></span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <hr class="partition">
-    </div>
-    <!-- cuối info -->
-
-    <!-- đầu footer -->
-    <div class="container"> 
-        <div class="footer" id="footer-left">
-            <form action="#">
-                <input class="content-footer-left" type="text" placeholder="Enter your Email">
-                <input class="btn-submit" type="submit" value="Subcribe">
-            </form>
-        </div>
-        <div class="footer" id="footer-right">
-            <span>© 2015 Luxury Watches. All Rights Reserved | Design by W3layouts</span>
-        </div>
-    </div>
-    <!-- cuối footer -->
 </body>
 
 </html>
